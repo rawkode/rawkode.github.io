@@ -4,6 +4,7 @@ style: light
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+  - jekyll-prism-plugin
 
 permalink: /:year/:month/:day/:title/
 
@@ -17,10 +18,4 @@ defaults:
 topics:
   - name: Elixir
     web_url: https://github.com/topics/elixir
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
