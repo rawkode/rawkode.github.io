@@ -8,16 +8,15 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
+  - name: Elixir
+    web_url: https://github.com/topics/elixir
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Web design
